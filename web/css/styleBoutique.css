@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-image: url("https://static1.squarespace.com/static/527abe0fe4b0040d68c56548/t/527bdf8fe4b04a4b55118a7f/1383849878082/cloud9-header-v4.png?format=2500w");
+}
+
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+    margin-top: 150px;
+    font-family: courier;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+    font-family: courier;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: courier;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: courier;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav a:hover {
+    color: black;
+    height: 50px;
+    background: linear-gradient(to top, #18516B, white);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background: linear-gradient(to top, #0F2934, #18516B);
+}
+
+.container {
+    height: 467px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, lightgray, white);
+}
+
+.contenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 500px;
+    background-color: #EAEDF1;
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px 2px #18516B;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    background: linear-gradient(to top, #0F2934, #18516B);
+}
+
+footer a img {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.drapeaux {
+    height: 70px;
+    width: 70px;
+}
+
+footer a img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+li {
+    list-style: none;
+}
